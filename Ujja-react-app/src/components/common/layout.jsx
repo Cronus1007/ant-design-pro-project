@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Layout } from "antd";
+import Material from "../content";
+import NavBar from "../navbar";
+
 import "antd/dist/antd.css";
 const { Sider, Content } = Layout;
 class PageLayout extends Component {
@@ -8,12 +11,14 @@ class PageLayout extends Component {
       <div className="height">
         <Layout>
           <Sider className="sider">
-            <div className="rectangle"></div>
+            <NavBar />
           </Sider>
           <Layout className="sider">
             {/* <Header className="sider">Header</Header> */}
             <div className="div-content">
-              <Content className="content">Content</Content>
+              <Content className="content">
+                <Material />
+              </Content>
             </div>
             {/* <Footer className="sider">Footer</Footer> */}
           </Layout>

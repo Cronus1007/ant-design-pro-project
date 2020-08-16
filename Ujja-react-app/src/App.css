@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .App {
     text-align: center;
     overflow: hidden;
@@ -66,4 +70,56 @@
     width: 97%;
     height: 10%;
     padding: 15px;
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    margin-left: 17%;
+}
+
+.ml {
+    margin-left: 10%;
+}
+
+.mt {
+    margin-top: 0px;
+}
+
+.logo {
+    transform: scale(1.05);
+}
+
+.active {
+    width: 90%;
+    border-radius: 30px;
+    background-color: #0077d2;
+    padding-top: 3px;
+    padding-left: 15px;
+    margin-top: 65px;
+    margin-left: 5%;
+}
+
+.rectangle-2 {
+    background-color: #f2f2f2;
+    width: 26%;
+    height: 4.5%;
+    padding: 1px;
+}
+
+.content-h1 {
+    margin-left: 0;
+    margin-top: 2.1%;
+    visibility: visible;
+    color: black;
+    font-size: 23px;
+}
+
+.graph-h1 {
+    color: #929292;
+    margin-left: 0;
+    margin-top: 6.1%;
+    font-size: 1.1rem;
+    font-family: Raleway;
 }
