@@ -81,3 +81,7 @@ First of all use the command npm run build to build the static folder in the loc
 ### Login to Firebase 
 
 The command for loging in the firebase is firebase login
+
+### Initializing with firebase 
+
+The command for initializing the repository with the firebase is firebase init 
