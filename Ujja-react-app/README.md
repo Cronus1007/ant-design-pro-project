@@ -89,3 +89,6 @@ The command for initializing the repository with the firebase is firebase init
 ### Internal Firebase Permissions
 
 The firebase requires some internal permission like the public folder,overwriting of 404.html and index.html. So do them accordingly.
+
+### Deploying on firebase
+The command to deploy on firebase is firebase deploy
