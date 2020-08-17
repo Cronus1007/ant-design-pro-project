@@ -70,3 +70,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Deployment 
 
 This section deals with the deployment phase of the react app via firebase.
+
+### Firebase Commands for Deploying
+
+This section deals with the deployment phase of the react app via terminal commands
+
+### Build Folder
+First of all use the command npm run build 
