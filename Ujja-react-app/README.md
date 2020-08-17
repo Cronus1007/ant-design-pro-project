@@ -76,4 +76,4 @@ This section deals with the deployment phase of the react app via firebase.
 This section deals with the deployment phase of the react app via terminal commands
 
 ### Build Folder
-First of all use the command npm run build 
+First of all use the command npm run build to build the static folder in the local repository...
